@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/* navbar */
+.top_navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.top_navbar div{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding: 20px 0 12px;
+}
+
+.top_navbar div div{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: -6px;
+}
+
+.top_navbar div div a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.login_account{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 30px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+
+
+
+/*space top-down*/
+.main_root_api{
+    padding-top: 150px;
+}
+
+
+
+
+
+/*first contant {main contant} */
+
+.f_maincontant{
+    padding: 0 200px;
+}
+
+.f_maincontant div{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px 2px rgba(255, 255, 255, 0);
+    padding: 20px 40px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.f_maincontant div img{
+    width: 50px;
+}
+
+
+.openai_cloudgpt{
+    display: flex;
+}
+
+
+.f_maincontant div div{
+    box-shadow: 2px 2px 20px 2px rgba(255, 255, 255, 0);
+    padding: 10px 30px;
+}
+
+.f_maincontant div div a{
+}
+
+
+
+.getstarted{
+    background-color: rgb(166, 0, 255);
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 5px 20px;
+}
+
+.learnmore_cloudgpt{
+    padding: 5px 20px;
+}
+
+
+
+/* cloudgpt_openai_2027_end */
+
+.cloudgpt_openai_2027_end{
+    margin-top: 150px;
+}
+
+
+.cloudgpt_openai_2027_end div h1{
+    color: rgba(0, 0, 0, 0.276);
+    font-size: 30px;
+}
+
+
+
+.mainchart img{
+    width: 50%;
+    box-shadow: 2px 2px 20px 2px rgb(225, 225, 225);
+    border-radius: 5px;
+}
+
+
+.companies_ai_2027{
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.companies_ai_2027 img{
+    margin-left: 20px;
+    
+}
+
+.companies_ai_2027 span{
+    margin: 8px 0 0 10px;
+    color: green;
+    display: flex;
+}
+
+
+
+
+/* about the cloudgpt*/
+
+.aboutcloudgpt{
+    background-color: white;
+    padding: 40px 100px 100px;
+}
+
+.aboutcloudgpt div{
+    margin-top: 10%;
+}
+
+
+
+
+/* cloudgpt_community */
+
+.cloudgpt_community{
+    background-color: black;
+    padding: 20px 200px 20px;
+    color: white;
+}
+
+.cloudgpt_community div{
+    box-shadow: 2px 2px 20px 2px rgba(255, 255, 255, 0);
+    padding: 20px 40px 50px;
+}
+
+
+
+
+/*bottom_navbar*/
+
+.bottom_navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.bottom_navbar div{
+    text-align: left;
+}
+
+.bottom_navbar div a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom_navbar div div{
+    display: flex;
+}
+
+.bottom_navbar div div img{
+    margin-left: 20px;
+}
